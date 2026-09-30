@@ -35,8 +35,8 @@
 ### 2. 装依赖
 
 ```bash
-git clone <本仓库地址>
-cd deepseek-translator
+git clone https://github.com/Joseph-new/DeepSeek-Translator.git
+cd DeepSeek-Translator
 npm install
 ```
 
