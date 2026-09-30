@@ -1,0 +1,17 @@
+{
+  "name": "deepseek-translator",
+  "productName": "DeepSeek 翻译器",
+  "version": "1.0.0",
+  "description": "基于 DeepSeek 的极简本地翻译器：Liquid Glass 界面、系统托盘、全局快捷键、余额与充值记录监控",
+  "main": "src/main/main.js",
+  "author": "Joseph",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "electron .",
+    "dev": "electron . --dev"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0"
+  }
+}

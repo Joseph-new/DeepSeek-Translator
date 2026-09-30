@@ -1,0 +1,11 @@
+# 默认按内容自动判断，并在检出时统一换行符
+* text=auto
+
+# Windows 脚本必须是 CRLF
+*.bat text eol=crlf
+*.vbs text eol=crlf
+
+# 二进制文件不做任何转换
+*.png binary
+*.ico binary
+*.exe binary

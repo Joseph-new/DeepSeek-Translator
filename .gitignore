@@ -1,0 +1,25 @@
+# 依赖
+node_modules/
+
+# 编译产物 —— 双击 make-launcher.bat 生成，不入库
+DeepSeek翻译器.exe
+launcher/copy-helper.exe
+
+# 自检产物
+_selftest/
+*.log
+
+# 图标生成脚本的中间产物
+assets/_*.png
+assets/icon-256.png
+assets/variants/
+assets/tray_candidates/
+
+# 系统文件
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# 编辑器
+.vscode/
+.idea/
